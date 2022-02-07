@@ -1,0 +1,39 @@
+.GameOverPane {
+    min-height: 100vh;
+    text-align: left;
+}
+
+.GameOverPaneHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    line-height: 50px;
+
+    border-bottom: 2px solid rgb(107, 107, 107);
+    color: rgb(107, 107, 107);
+}
+
+.GameOverPaneHeaderText {
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.6rem;
+    color: rgb(235, 235, 235);
+    font-weight: bold;
+}
+
+.FinalGuess {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.Button {
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 5px 10px !important;
+    transition: 0.3s all;
+    cursor: pointer;
+}

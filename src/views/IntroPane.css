@@ -1,0 +1,50 @@
+.IntroPane {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.BrandTitle {
+    font-size: 6rem;
+    letter-spacing: 3rem;
+}
+
+.BrandSubtitle {
+    font-size: 2rem;
+    margin-top: -15px;
+    font-style: italic;
+    text-align: right;
+    margin-right: 75px;
+    opacity: 0.75;
+}
+
+
+.BrandButton:hover {
+    background-color: #fff;
+    color: #131518;
+    
+    cursor: pointer;
+}
+
+.IntroControls {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+
+@media (max-width: 780px) {
+    .BrandTitle {
+        font-size: 3rem;
+        letter-spacing: 1rem;
+    }
+
+    .BrandSubtitle {
+        font-size: 1.5rem;
+        /* margin-right: 15px; */
+        margin-right: 0;
+        text-align: center;
+        margin-top: 0;
+    }
+}

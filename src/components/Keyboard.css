@@ -1,0 +1,14 @@
+.Row {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    
+}
+
+.Keyboard {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+}

@@ -1,0 +1,60 @@
+.SettingsPane {
+    min-height: 100vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.SettingsPaneHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    line-height: 50px;
+
+    border-bottom: 2px solid rgb(107, 107, 107);
+    color: rgb(107, 107, 107);
+}
+
+.SettingsPaneHeaderText {
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.6rem;
+    color: rgb(235, 235, 235);
+    font-weight: bold;
+}
+
+.row {
+    font-size: 1.35rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+
+.row-right {
+    display: flex;
+}
+
+.row-right div {
+    padding: 0px 5px;
+}
+
+.lower-arrow, .upper-arrow {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.Button {
+    border: 1px solid #fff;
+    border-radius: 25px;
+    padding: 5px 10px !important;
+    transition: 0.3s all;
+    cursor: pointer;
+}

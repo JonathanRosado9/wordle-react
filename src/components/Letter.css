@@ -1,0 +1,27 @@
+.Letter {
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 50px;
+    min-height: 50px;
+    line-height: 50px;
+    border: 2px solid rgb(107, 107, 107);
+    margin: 0px 5px;
+}
+
+.notmatch {
+    background-color: rgb(167, 167, 167);
+}
+
+.match {
+    background-color: rgb(67, 190, 73);
+    border-color: rgb(67, 190, 73);
+}
+
+.found {
+    background-color: rgb(197, 195, 80);
+    border-color: rgb(197, 195, 80);
+}
+

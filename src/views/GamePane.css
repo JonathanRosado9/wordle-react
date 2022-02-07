@@ -1,0 +1,40 @@
+.GamePane {
+    min-height: 100vh;
+    text-align: left;
+}
+
+.GamePaneHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+    line-height: 50px;
+
+    border-bottom: 2px solid rgb(107, 107, 107);
+    color: rgb(107, 107, 107);
+}
+
+.HeaderBrand {
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.6rem;
+    color: rgb(235, 235, 235);
+    font-weight: bold;
+}
+
+.SettingsButton, .RulesButton {
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.SettingsButton:hover, .RulesButton:hover {
+    color: rgb(235,235,235);
+}
+
+
+.RulesButton, .SettingsButton {
+    line-height: 65px;
+    padding: 0 2px;
+}
