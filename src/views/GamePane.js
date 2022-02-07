@@ -8,7 +8,7 @@ export default function GamePane({match, guesses=[], keyboard, handleKeyboard, t
   return (
       <div className="GamePane Pane">
           <div className="GamePaneHeader">
-                <div className="RulesButton" onClick={openRules}><span className="material-icons">question mark</span></div>
+                <div className="RulesButton" onClick={openRules}><span className="material-icons">question_mark</span></div>
                 <div className="HeaderBrand">WORDLE</div>
                 <div className="SettingsButton" onClick={openSettings}><span className="material-icons">settings</span></div>
           </div>
