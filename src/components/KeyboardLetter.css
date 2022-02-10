@@ -8,7 +8,7 @@
     margin: 5px;
     background-color: rgb(112, 112, 112);
     border-radius: 5px;
-
+    min-width: 25px;
     cursor: pointer;
 }
 
@@ -26,9 +26,3 @@
     border-color: rgb(197, 195, 80);
 }
 
-@media (max-width: 690px) {
-    .KeyboardLetter {
-        /* width: 5px;
-        font-size: 0.5rem; */
-    }
-}
