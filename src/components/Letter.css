@@ -11,6 +11,7 @@
     margin: 0px 5px;
 }
 
+
 .notmatch {
     background-color: rgb(167, 167, 167);
 }
@@ -25,3 +26,11 @@
     border-color: rgb(197, 195, 80);
 }
 
+
+@media (min-width: 800px) {
+    .Letter {
+        width: 55px;
+        min-height: 55px;
+        line-height: 55px;
+    }
+}
