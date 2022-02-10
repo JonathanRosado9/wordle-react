@@ -215,7 +215,7 @@ function App() {
       {gameState === "intro" ? (
         <IntroPane setGameState={setGameState} />
       ) : shownTutorial === false || gameState === "rules" ? (
-        <RulesPane letterAmount={letterAmount} exitRules={exitRules} />
+        <RulesPane letterAmount={letterAmount} exitRules={exitRules} shownTutorial={shownTutorial} />
       ) : gameState === "settings" ? (
         <SettingsPane
           exitSettings={exitSettings}

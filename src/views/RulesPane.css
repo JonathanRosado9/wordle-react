@@ -3,6 +3,9 @@
     text-align: left;
 }
 
+p {
+    margin: 0.65em 0.5em;
+}
 .RulesPaneHeader {
     display: flex;
     flex-direction: row;

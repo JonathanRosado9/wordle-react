@@ -1,7 +1,16 @@
+html, body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
 .App {
   text-align: center;
   background-color: #131518;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,6 +21,10 @@
 .Pane {
   width: 750px;
   max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
 }
 .ControlButton {
   font-size: 2rem;
