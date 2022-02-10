@@ -34,3 +34,11 @@
         line-height: 55px;
     }
 }
+
+@media (max-height: 700px) {
+    .Letter {
+        width: 35px;
+        min-height: 35px;
+        line-height: 35px;
+    }
+}
