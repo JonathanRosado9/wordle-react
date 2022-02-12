@@ -35,6 +35,7 @@
 
 
 .RulesButton, .SettingsButton {
-    line-height: 65px;
+    line-height: 50px;
     padding: 0 2px;
+    font-size: 2rem;
 }
